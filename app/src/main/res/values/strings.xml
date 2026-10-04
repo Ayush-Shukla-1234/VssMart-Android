@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Branding -->
+    <string name="app_name">VssMart</string>
+    <string name="app_short_name">VMart</string>
+    <string name="app_tagline">Your Campus Marketplace</string>
+    <string name="app_subtagline">Buy &amp; Sell pre-owned hostel essentials safely within your college community.</string>
+
+    <!-- Navigation -->
+    <string name="nav_market">Market</string>
+    <string name="nav_sell">Sell</string>
+    <string name="nav_you">You</string>
+
+    <!-- Categories -->
+    <string name="category_all">All</string>
+    <string name="category_cycles">Cycles</string>
+    <string name="category_coolers">Coolers</string>
+    <string name="category_study_tables">Study Tables</string>
+    <string name="category_books">Books</string>
+    <string name="category_mattresses">Mattresses</string>
+    <string name="category_kettles">Kettles</string>
+    <string name="category_electronics">Electronics</string>
+    <string name="category_other">Other</string>
+
+    <!-- Form Dropdown Arrays -->
+    <string-array name="item_categories">
+        <item>Select Category</item>
+        <item>Cycles</item>
+        <item>Coolers &amp; Fans</item>
+        <item>Electronics &amp; Appliances</item>
+        <item>Books &amp; Study Material</item>
+        <item>Mattresses &amp; Furniture</item>
+        <item>Hostel Essentials</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="item_conditions">
+        <item>Select Condition</item>
+        <item>Brand New / Sealed</item>
+        <item>Like New (Used few times)</item>
+        <item>Good (Normal wear)</item>
+        <item>Fair (Functional)</item>
+    </string-array>
+
+    <!-- Authentication -->
+    <string name="auth_welcome_title">Welcome to VssMart</string>
+    <string name="auth_welcome_desc">Buy and sell cycles, coolers, tables &amp; hostel gear directly with campus mates.</string>
+    <string name="sign_in_with_google">Continue with Google</string>
+    <string name="default_web_client_id">481968719145-6sr9lqu4dhfhoie51qmtvum4805ujmkl.apps.googleusercontent.com</string>
+    <string name="default_web_client_id_placeholder">481968719145-6sr9lqu4dhfhoie51qmtvum4805ujmkl.apps.googleusercontent.com</string>
+    <string name="auth_google_security_note">Sign in securely using your Google (Gmail) account</string>
+    <string name="invalid_phone_error">Please enter a valid 10-digit mobile number</string>
+
+    <!-- Market Feed -->
+    <string name="search_hint">Search cycles, coolers, books, tables...</string>
+    <string name="no_listings_title">No items found</string>
+    <string name="no_listings_desc">Be the first to list a hostel essential or try a different filter!</string>
+    <string name="filter_all">All Items</string>
+    <string name="currency_symbol">₹</string>
+    <string name="sold_tag">SOLD</string>
+    <string name="posted_ago">Posted %s</string>
+
+    <!-- Add Listing Form -->
+    <string name="sell_title">List an Item</string>
+    <string name="sell_subtitle">Sell your hostel essentials to fellow students in minutes.</string>
+    <string name="item_photo_label">Product Photo</string>
+    <string name="add_photo_hint">Tap to select a clear photo</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="title_label">Item Title *</string>
+    <string name="title_hint">e.g. Hero Sprint Cycle (Gearless)</string>
+    <string name="price_label">Selling Price (₹) *</string>
+    <string name="price_hint">e.g. 2500</string>
+    <string name="original_price_label">Original Price (₹) (Optional)</string>
+    <string name="original_price_hint">e.g. 5000</string>
+    <string name="category_label">Category *</string>
+    <string name="category_hint">Select Category</string>
+    <string name="condition_label">Item Condition *</string>
+    <string name="condition_like_new">Like New (Barely Used)</string>
+    <string name="condition_good">Good (Fully Functional)</string>
+    <string name="condition_fair">Fair (Visible Wear)</string>
+    <string name="description_label">Description (Optional)</string>
+    <string name="description_hint">Describe condition, duration of use, warranty, reason for selling...</string>
+    <string name="hostel_label">Hostel Name *</string>
+    <string name="hostel_hint">e.g. Pulaha / Marichi / Vashistha / Rohini</string>
+    <string name="room_label">Room No. (Optional)</string>
+    <string name="room_hint">e.g. A-304</string>
+    <string name="whatsapp_label">WhatsApp Number *</string>
+    <string name="whatsapp_hint">10-digit number for buyer chats</string>
+    <string name="btn_post_listing">Post Item Now</string>
+    <string name="posting_item">Uploading image &amp; publishing listing...</string>
+
+    <!-- Listing Detail Screen -->
+    <string name="detail_title">Item Details</string>
+    <string name="seller_info_title">Seller Details</string>
+    <string name="location_hostel">Hostel: %s</string>
+    <string name="location_room">Room: %s</string>
+    <string name="btn_chat_whatsapp">Chat on WhatsApp</string>
+    <string name="btn_call_seller">Call Seller</string>
+    <string name="whatsapp_not_installed">WhatsApp is not installed on this device.</string>
+    <string name="whatsapp_template">Hi %1$s, I saw your listing "%2$s" on VssMart for ₹%3$s. Is it still available? I would like to check it out.</string>
+    <string name="share_listing_template">Check out this %1$s for ₹%2$s on VssMart Campus Marketplace!</string>
+
+    <!-- You / Profile Screen -->
+    <string name="profile_title">Campus Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="my_listings_tab">My Listings</string>
+    <string name="active_items_count">%d Active Items</string>
+    <string name="sold_items_count">%d Sold</string>
+    <string name="mark_as_sold">Mark as Sold</string>
+    <string name="mark_as_active">Mark as Active</string>
+    <string name="delete_listing">Delete Listing</string>
+    <string name="confirm_delete_title">Delete this listing?</string>
+    <string name="confirm_delete_message">Are you sure you want to permanently delete this listing? This action cannot be undone.</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save Changes</string>
+    <string name="btn_logout">Log Out</string>
+    <string name="confirm_logout_title">Log Out</string>
+    <string name="confirm_logout_message">Are you sure you want to sign out of VssMart?</string>
+
+    <!-- Help & Feedback Screen -->
+    <string name="help_feedback_title">Help &amp; Support</string>
+    <string name="faq_title">Frequently Asked Questions</string>
+    <string name="faq_1_q">How does buying work on VssMart?</string>
+    <string name="faq_1_a">Browse items in the Market tab, open any listing you like, and tap "Chat on WhatsApp". You can inspect the item in their hostel room and pay via UPI in person.</string>
+    <string name="faq_2_q">Is there any commission or listing fee?</string>
+    <string name="faq_2_a">No! VssMart is 100% free and open for college campus students. There are zero platform fees or transaction cuts.</string>
+    <string name="faq_3_q">How do I mark an item as sold?</string>
+    <string name="faq_3_a">Go to the "You" tab, find your item under "My Listings", and tap "Mark as Sold".</string>
+    <string name="send_feedback_title">Send Feedback / Report Issue</string>
+    <string name="feedback_subject_hint">Subject / Topic</string>
+    <string name="feedback_message_hint">Describe your feedback, suggestion, or issue...</string>
+    <string name="btn_send_feedback">Submit Feedback</string>
+    <string name="feedback_submitted">Thank you! Your feedback has been submitted.</string>
+
+    <!-- About Screen -->
+    <string name="about_title">About VssMart</string>
+    <string name="about_version_tag">v1.0 • Built for VSSUT Campus</string>
+    <string name="about_what_is_title">What is VssMart?</string>
+    <string name="about_what_is_desc">VssMart is a dedicated peer-to-peer campus marketplace designed for VSSUT students. Buy and sell used cycles, coolers, study tables, mattresses, and hostel essentials directly with fellow students without middlemen.</string>
+    <string name="about_key_features_title">Key Features</string>
+    <string name="about_developer_title">Developer &amp; Contact</string>
+    <string name="developer_name">Ayush Shukla</string>
+    <string name="developer_role">Student Developer, VSSUT Burla</string>
+    <string name="about_footer">Made with ❤️ in Burla • VssMart 2026</string>
+    <string name="about_terms">Terms of Use</string>
+    <string name="about_privacy">Privacy Policy</string>
+    <string name="github_profile_url">https://github.com/Ayush-Shukla-1234</string>
+    <string name="linkedin_profile_url">https://www.linkedin.com/in/ayush-shukla-46689b293/</string>
+
+    <!-- Common Actions & Errors -->
+    <string name="error_required_field">This field is required</string>
+    <string name="error_image_required">Please select a photo for your item</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="success_listing_created">Item listed successfully!</string>
+    <string name="success_profile_updated">Profile updated successfully!</string>
+    <string name="success_item_sold">Listing marked as sold.</string>
+    <string name="success_item_deleted">Listing deleted.</string>
+</resources>

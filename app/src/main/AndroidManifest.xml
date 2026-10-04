@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Network permissions for Firebase & Image loading -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Package visibility declarations for Android 11+ (API 30+) -->
+    <queries>
+        <!-- Standard WhatsApp -->
+        <package android:name="com.whatsapp" />
+        <!-- WhatsApp Business -->
+        <package android:name="com.whatsapp.w4b" />
+        <!-- Phone Dialer -->
+        <intent>
+            <action android:name="android.intent.action.DIAL" />
+        </intent>
+        <!-- Browser intent for external links -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".VssMartApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VssMart">
+
+        <!-- Splash Screen (Launcher) -->
+        <activity
+            android:name=".view.splash.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.VssMart.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Authentication Activity -->
+        <activity
+            android:name=".view.auth.AuthActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Main Container Activity (BottomNav & Tabs) -->
+        <activity
+            android:name=".view.main.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Listing Detail Activity -->
+        <activity
+            android:name=".view.detail.ListingDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Support & Feedback Activity -->
+        <activity
+            android:name=".view.support.HelpFeedbackActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- About Developer & College Activity -->
+        <activity
+            android:name=".view.support.AboutActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

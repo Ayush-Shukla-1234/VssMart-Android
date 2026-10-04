@@ -1,0 +1,26 @@
+# Built application files & artifacts
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Local configuration (SDK paths)
+local.properties
+
+# Gradle & Build output
+.gradle/
+build/
+app/build/
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+
+# Release / keystore output
+/app/release/
+*.jks
+*.keystore
+
+# Firebase credentials (Sensitive)
+app/google-services.json
