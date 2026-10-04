@@ -96,3 +96,9 @@ In Firebase Console > Authentication > Sign-in method:
 3. **Seamless Photo Picker**: Leverages Android 13+ `ActivityResultContracts.PickVisualMedia()` for privacy-friendly photo picking without broad storage permissions.
 4. **Direct WhatsApp Integration**: Sanitizes and normalizes phone numbers (+91), verifies WhatsApp / WhatsApp Business installation, and pre-populates product inquiries.
 5. **Campus Identity & Listings Management**: Personalized profile with Hostel & Room details, "Mark as Sold" toggles, and deletion confirmation dialogs.
+
+## 📱 Application Preview
+
+| Feed Screen | Product Details | Add Listing | Profile Screen |
+| :---: | :---: | :---: | :---: |
+| ![Feed](screenshots/feed.jpeg) | ![Details](screenshots/product_detail.png) | ![Add Listing](screenshots/add_listing.jpeg) | ![Profile](screenshots/profile.jpeg) |
